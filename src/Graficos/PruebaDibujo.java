@@ -46,8 +46,9 @@ class Graficos extends JPanel{
 				+ "4. Imágenes acopladas");
 		int opcion = Integer.parseInt(dato);
 		
+		
 		if (opcion == 1){
-			
+			System.out.println("Ultima adicion");
 			g2.drawString("Líneas", 20, 20);
 			g2.draw(new Line2D.Double(100, 100, 100, 200));
 			g2.draw(new Line2D.Double(200, 100, 200, 200));
